@@ -1,0 +1,5 @@
+Strategy | Duration (s) | Best Val Acc
+----------------------------------------
+Freeze Backbone | 478.34 | 0.9542
+Fine-tune All | 559.02 | 0.9216
+Gradual Unfreeze | 525.47 | 0.9608

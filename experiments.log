@@ -1,0 +1,171 @@
+
+====================
+Running Strategy: Freeze Backbone
+====================
+Epoch 0/9
+----------
+train Loss: 0.7838 Acc: 0.6148
+val Loss: 0.3436 Acc: 0.8693
+
+Epoch 1/9
+----------
+train Loss: 0.4359 Acc: 0.8074
+val Loss: 0.3186 Acc: 0.8366
+
+Epoch 2/9
+----------
+train Loss: 0.4241 Acc: 0.8033
+val Loss: 0.1785 Acc: 0.9477
+
+Epoch 3/9
+----------
+train Loss: 0.3173 Acc: 0.8607
+val Loss: 0.2137 Acc: 0.9085
+
+Epoch 4/9
+----------
+train Loss: 0.4154 Acc: 0.8197
+val Loss: 0.1633 Acc: 0.9477
+
+Epoch 5/9
+----------
+train Loss: 0.4906 Acc: 0.7828
+val Loss: 0.1692 Acc: 0.9542
+
+Epoch 6/9
+----------
+train Loss: 0.3740 Acc: 0.8607
+val Loss: 0.1832 Acc: 0.9477
+
+Epoch 7/9
+----------
+train Loss: 0.3184 Acc: 0.8689
+val Loss: 0.1831 Acc: 0.9412
+
+Epoch 8/9
+----------
+train Loss: 0.3419 Acc: 0.8402
+val Loss: 0.1830 Acc: 0.9477
+
+Epoch 9/9
+----------
+train Loss: 0.2958 Acc: 0.8648
+val Loss: 0.2062 Acc: 0.9477
+
+Training complete in 7m 58s
+Best val Acc: 0.954248
+
+====================
+Running Strategy: Fine-tune All
+====================
+Epoch 0/9
+----------
+train Loss: 0.6563 Acc: 0.6352
+val Loss: 0.3090 Acc: 0.8758
+
+Epoch 1/9
+----------
+train Loss: 0.5528 Acc: 0.7418
+val Loss: 0.2049 Acc: 0.9150
+
+Epoch 2/9
+----------
+train Loss: 0.4672 Acc: 0.8361
+val Loss: 0.2885 Acc: 0.9085
+
+Epoch 3/9
+----------
+train Loss: 0.5731 Acc: 0.7910
+val Loss: 0.2949 Acc: 0.9216
+
+Epoch 4/9
+----------
+train Loss: 0.7660 Acc: 0.7541
+val Loss: 0.4754 Acc: 0.8301
+
+Epoch 5/9
+----------
+train Loss: 0.4522 Acc: 0.8238
+val Loss: 0.3523 Acc: 0.9020
+
+Epoch 6/9
+----------
+train Loss: 0.4713 Acc: 0.8361
+val Loss: 0.3295 Acc: 0.8954
+
+Epoch 7/9
+----------
+train Loss: 0.4136 Acc: 0.8443
+val Loss: 0.2875 Acc: 0.9020
+
+Epoch 8/9
+----------
+train Loss: 0.3292 Acc: 0.8689
+val Loss: 0.2895 Acc: 0.9020
+
+Epoch 9/9
+----------
+train Loss: 0.2345 Acc: 0.9016
+val Loss: 0.2874 Acc: 0.8954
+
+Training complete in 9m 19s
+Best val Acc: 0.921569
+
+====================
+Running Strategy: Gradual Unfreeze
+====================
+Epoch 0/9
+----------
+train Loss: 0.5839 Acc: 0.6557
+val Loss: 0.1996 Acc: 0.9346
+
+Epoch 1/9
+----------
+train Loss: 0.6656 Acc: 0.6885
+val Loss: 0.3141 Acc: 0.8562
+
+Epoch 2/9
+----------
+train Loss: 0.4345 Acc: 0.7828
+val Loss: 0.1790 Acc: 0.9608
+
+Epoch 3/9
+----------
+train Loss: 0.3476 Acc: 0.8525
+val Loss: 0.1892 Acc: 0.9346
+
+Epoch 4/9
+----------
+train Loss: 0.4951 Acc: 0.7869
+val Loss: 0.2050 Acc: 0.9216
+
+Epoch 5/9
+----------
+Unfreezing all layers...
+train Loss: 0.5481 Acc: 0.7787
+val Loss: 0.2908 Acc: 0.9085
+
+Epoch 6/9
+----------
+train Loss: 0.4899 Acc: 0.8197
+val Loss: 0.3939 Acc: 0.8497
+
+Epoch 7/9
+----------
+train Loss: 0.4203 Acc: 0.8525
+val Loss: 0.6317 Acc: 0.8366
+
+Epoch 8/9
+----------
+train Loss: 0.6196 Acc: 0.7828
+val Loss: 0.4874 Acc: 0.8105
+
+Epoch 9/9
+----------
+train Loss: 0.4690 Acc: 0.8443
+val Loss: 0.5600 Acc: 0.8366
+
+Training complete in 8m 45s
+Best val Acc: 0.960784
+
+All experiments completed. Summary saved to results_summary.txt
