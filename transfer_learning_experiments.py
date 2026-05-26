@@ -156,7 +156,7 @@ def run_experiment(strategy_name):
     exp_lr_scheduler = lr_scheduler.StepLR(optimizer, step_size=7, gamma=0.1)
     
     model, duration, best_acc, history = train_model(model_ft, criterion, optimizer, 
-                                                     exp_lr_scheduler, num_epochs=10, 
+                                                     exp_lr_scheduler, num_epochs=2, 
                                                      unfreeze_at=unfreeze_at)
     return duration, best_acc, history
 
