@@ -30,7 +30,7 @@ data_transforms = {
     ]),
 }
 
-data_dir = 'hymenoptera_data'
+data_dir = 'CIFAR10_Fake_Real'
 image_datasets = {x: datasets.ImageFolder(os.path.join(data_dir, x),
                                           data_transforms[x])
                   for x in ['train', 'val']}
